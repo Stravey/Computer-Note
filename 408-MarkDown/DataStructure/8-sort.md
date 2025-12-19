@@ -1369,7 +1369,7 @@ $k$路平衡归并：
      int main() {
          std::vector<int> numbers = {5\; 2\; 9\; 1\; 5\; 6};
          
-         std::sort(numbers.begin()\; numbers.end());
+         std::sort(numbers.begin(), numbers.end());
          
          for (int num : numbers) {
              std::cout << num << " ";

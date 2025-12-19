@@ -199,7 +199,7 @@ int main() {
     std::string expression;
 
     std::cout << "Enter an expression with parentheses: ";
-    std::getline(std::cin， expression);
+    std::getline(std::cin,expression);
 
     if (isBalancedParentheses(expression)) {
         std::cout << "Parentheses are balanced." << std::endl;
